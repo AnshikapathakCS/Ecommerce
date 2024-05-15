@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QHX-Ps-Zdn">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hariyali " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xpN-yp-5YV">
+                                <rect key="frame" x="12" y="71" width="369" height="43.666666666666657"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="38"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pumkin" translatesAutoresizingMaskIntoConstraints="NO" id="V9G-tC-Ztu">
+                                <rect key="frame" x="67" y="341" width="259" height="195"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Buy Fresh Veggies from Our Hariyali Store 🌱" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9sH-wL-kyU">
+                                <rect key="frame" x="24" y="154.66666666666666" width="369" height="19.666666666666657"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Glp-Qx-itJ"/>
+                        <color key="backgroundColor" red="0.76470588240000004" green="0.98039215690000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9sH-wL-kyU" firstAttribute="trailing" secondItem="xpN-yp-5YV" secondAttribute="trailing" constant="12" id="77s-vg-do0"/>
+                            <constraint firstItem="Glp-Qx-itJ" firstAttribute="trailing" secondItem="V9G-tC-Ztu" secondAttribute="trailing" constant="67" id="C1S-Ws-taT"/>
+                            <constraint firstItem="V9G-tC-Ztu" firstAttribute="leading" secondItem="Glp-Qx-itJ" secondAttribute="leading" constant="67" id="ENS-vJ-nYj"/>
+                            <constraint firstItem="V9G-tC-Ztu" firstAttribute="centerX" secondItem="Glp-Qx-itJ" secondAttribute="centerX" id="FBD-L9-Ewd"/>
+                            <constraint firstItem="9sH-wL-kyU" firstAttribute="leading" secondItem="xpN-yp-5YV" secondAttribute="leading" constant="12" id="LlP-oL-gfx"/>
+                            <constraint firstItem="9sH-wL-kyU" firstAttribute="top" secondItem="xpN-yp-5YV" secondAttribute="bottom" constant="40" id="NsF-vZ-nQx"/>
+                            <constraint firstItem="Glp-Qx-itJ" firstAttribute="trailing" secondItem="xpN-yp-5YV" secondAttribute="trailing" constant="12" id="OZx-2E-2Bh"/>
+                            <constraint firstItem="Glp-Qx-itJ" firstAttribute="bottom" secondItem="V9G-tC-Ztu" secondAttribute="bottom" constant="282" id="QU4-GS-Lbt"/>
+                            <constraint firstItem="V9G-tC-Ztu" firstAttribute="centerY" secondItem="Glp-Qx-itJ" secondAttribute="centerY" id="VRf-Dz-JPG"/>
+                            <constraint firstItem="xpN-yp-5YV" firstAttribute="top" secondItem="Glp-Qx-itJ" secondAttribute="top" constant="12" id="WUX-wu-coS"/>
+                            <constraint firstItem="xpN-yp-5YV" firstAttribute="leading" secondItem="Glp-Qx-itJ" secondAttribute="leading" constant="12" id="pmP-RF-6nx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Pumkin" width="500" height="500"/>
+    </resources>
+</document>
